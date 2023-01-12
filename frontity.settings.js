@@ -2,7 +2,7 @@ const settings = {
   "name": "frontity-react",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "https://reactworpresstest.wordpress.com/",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
@@ -14,24 +14,24 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
+              "AIFC",
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
+              "О НАС",
               "/about-us/"
+            ],
+            [
+              "УСЛУГИ",
+              "/category/services/"
+            ],
+            [
+              "БИЗНЕС",
+              "/category/business/"
+            ],
+            [
+              "МЕДИА",
+              "/category/media/"
             ]
           ],
           "featured": {
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://reactworpresstest.wordpress.com/"
         }
       }
     },

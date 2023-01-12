@@ -1,4 +1,6 @@
 import { Global, css, connect, styled, Head } from "frontity";
+import React from 'react'
+import {Route} from 'react-router-dom'
 import Switch from "@frontity/components/switch";
 import Header from "./header";
 import List from "./list";
@@ -6,6 +8,10 @@ import Post from "./post";
 import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
+import HomePage from "./homePage/HomePage";
+
+
+
 
 /**
  * Theme is the root React component of our theme. The one we will export
@@ -45,8 +51,11 @@ const Theme = ({ state }) => {
           <List when={data.isArchive} />
           <Post when={data.isPostType} />
           <PageError when={data.isError} />
+          <HomePage when={data.route === "/about-us/"}/>
         </Switch>
       </Main>
+
+
     </>
   );
 };
@@ -70,7 +79,7 @@ const HeadContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #1f38c5;
+  background-color: black;
 `;
 
 const Main = styled.div`

@@ -19,5 +19,8 @@
     "@frontity/components": "^1.8.2",
     "@frontity/html2react": "^1.6.1",
     "frontity": "^1.17.0"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
   }
 }

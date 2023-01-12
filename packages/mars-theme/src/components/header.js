@@ -8,9 +8,9 @@ const Header = ({ state }) => {
     <>
       <Container>
         <StyledLink link="/">
-          <Title>{state.frontity.title}</Title>
+          <Title>Frontity WordPress</Title>
         </StyledLink>
-        <Description>{state.frontity.description}</Description>
+        <Description>Testing Frontity React.js framework for WordPress</Description>
         <MobileMenu />
       </Container>
       <Nav />
